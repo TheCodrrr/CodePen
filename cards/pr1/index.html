@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container dff">
+        <div class="card card1 dff">
+            <div class="img_container dff">
+                <img src="https://images.pexels.com/photos/737586/pexels-photo-737586.jpeg" alt="Image1" class="img">
+            </div>
+            <div class="content_container df-jc">
+                <h2 class="title">Card Title</h2>
+                <p class="sub-title">This is the card tagline</p>
+                <p class="content" id="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptas optio incidunt praesentium aperiam sed aspernatur reiciendis eos deleniti, veniam repellendus ducimus, pariatur aut. Facilis!
+                </p>
+                <button class="view-more">View More</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    let para = document.getElementById('content').innerText;
+    console.log(para, para.length);
+    if (para.length > 100) {
+        document.getElementById('content').innerText = para.substring(0, 100) + '...';
+    }
+ 
+</script>
+</html>
