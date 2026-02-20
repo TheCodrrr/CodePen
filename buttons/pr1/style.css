@@ -1,0 +1,45 @@
+.dff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.df-ai {
+    display: flex;
+    align-items: center;
+}
+.df-jc {
+    display: flex;
+    justify-content: center;
+}
+.df {
+    display: flex;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.btn {
+    width: fit-content;
+    padding: 10px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px 0;
+    background-color: transparent;
+    border: 1px solid black;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
