@@ -34,6 +34,7 @@
     border-radius: 5px;
     cursor: pointer;
     margin: 8px 0;
+    font-size: 1.5rem;
     background-color: transparent;
     border: 1px solid black;
     transition: 0.2s;
